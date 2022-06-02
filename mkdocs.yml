@@ -1,0 +1,86 @@
+site_name: Uno-2040
+nav:
+    - Home: index.md
+    - Introduction:
+      - Introduction : intro.md
+    - Setup :
+      - 'Setting up arduino IDE': 'settinguparduino.md'
+      # - 'Setting up circuitpython': 'settingupcircuitpython.md'
+    - prerequisites:
+        - 'Technical jargon' : 'jargon.md'
+        - 'Crash course on Electronics': 'electronics.md'
+    # - Projects:
+    #     - 'List of projects': 'listofprojects.md'
+    #     - 'LED Blink': '1-ledblink.md'
+    #     - 'LED fading': '3-ledfading.md'
+    #     - 'Digital Inputs': '4-digitalinputs.md'
+    #     - 'Analog inputs': '5-analoginputs.md'
+
+theme:
+    name: 'material'
+    logo: 'assets/sysislogo.svg'
+    favicon: 'assets/sysislogo.svg'
+    custom_dir: docs/overrides
+    features:
+    - navigation.expand
+    - navigation.tabs
+    - navigation.top
+    icon:
+      repo: fontawesome/brands/github
+    palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: red
+      accent: deep orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+plugins:
+  - search
+  - macros
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/knoviqtech
+      name: squidfunk on Twitter
+
+    - icon: fontawesome/brands/github
+      link: https://github.com/knoviqtech
+      name: squidfunk on Twitter
+
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/knoviqtech
+      name: squidfunk on Twitter
+
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/knoviqtech
+      name: squidfunk on Twitter
+
+extra_css:
+  - assets/config.css
+
+copyright: Copyright &copy; 2022 Sysis Enterprises<sup>tm</sup>
+
+markdown_extensions:
+    - attr_list
+    - admonition
+    - pymdownx.details
+    - pymdownx.tabbed
+    - pymdownx.superfences
+    - pymdownx.inlinehilite
+
+repo_url: https://github.com/suraj022/uno2040-docs
+repo_name: uno2040-docs
