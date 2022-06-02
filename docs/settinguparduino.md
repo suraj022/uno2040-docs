@@ -65,7 +65,7 @@ Type "uno-2040" in the search box and select "Add":
         ![disk drive](setuparduino/firstboot.png){: style="width:300px"}
 
         !!! bug
-            Even thought the drive shows 127 MB of total usable storage, Raspberry pi pico only sports 2 MB of internal storage. and while using Circuitpython firmware, only about 0.98 MB is available to users.
+            Even thought the drive shows 127 MB of total usable storage, {{ config.site_name }} only sports 2 MB of internal storage. only about 1 MB is available for filesystem.
 
         <hr/>
 
