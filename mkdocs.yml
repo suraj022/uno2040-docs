@@ -54,20 +54,20 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/knoviqtech
-      name: squidfunk on Twitter
+      link: #
+      name: Twitter
 
     - icon: fontawesome/brands/github
-      link: https://github.com/knoviqtech
-      name: squidfunk on Twitter
+      link: https://github.com/suraj022
+      name: Github
 
     - icon: fontawesome/brands/facebook
-      link: https://facebook.com/knoviqtech
-      name: squidfunk on Twitter
+      link: #
+      name: Facebook
 
     - icon: fontawesome/brands/instagram
-      link: https://instagram.com/knoviqtech
-      name: squidfunk on Twitter
+      link: #
+      name: Instagram
 
 extra_css:
   - assets/config.css
