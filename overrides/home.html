@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+
+<!-- Custom front matter -->
+<!-- {% block extrahead %}
+  {% set title = config.site_name %}
+  {% if page and page.title and not page.is_homepage %}
+    {% set title = config.site_name ~ " - " ~ page.title | striptags %}
+  {% endif %}
+
+{% endblock %} -->
+
+
+<!-- Render hero under tabs -->
+{% block tabs %} {{ super() }}
+
+<!-- Additional styles for landing page -->
+<style>
+    /* Application header should be static for the landing page */
+    
+    .md-header {
+        position: initial;
+    }
+    /* Remove spacing, as we cannot hide it completely */
+    
+    .md-main__inner {
+        margin: 0;
+    }
+    /* Hide main content for now */
+    
+    .md-content {
+        display: none;
+    }
+    /* Hide table of contents */
+    /* @media screen and (min-width: 60em) {
+      .md-sidebar--secondary {
+        display: none;
+      }
+    } */
+    /* Hide navigation */
+    /* @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    } */
+</style>
+
+<br>
+<!-- Hero for landing page -->
+<section>
+    <div class="md-grid md-typeset">
+        <div>
+
+            <!-- Hero image -->
+            <div>
+                <img src="assets/picobit_banner_new.svg" alt="" width="2000" draggable="false">
+            </div>
+
+            <!-- Hero content -->
+            <div>
+                <h1> {{ config.site_name }}</h1>
+
+                <p> {{ config.site_name }} is a development board which comes in arduino uno form factor that we all know and love. Which means it's 1-1 pin compatible with Arduino Uno R3. it's mostly a drop-in replacement for the existing Arduino Uno, So the existing shields meant for arduino uno can also be used with it.
+                </p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | e }}" class="md-button md-button--primary">
+            Get started
+          </a>
+            </div>
+            <br><br>
+            <div>
+                <h1>Buy {{ config.site_name }} from our official retailers</h1>
+
+                <a href="#" title="Our offline store" class="md-button md-button--primary" target=_ blank>Our store</a>
+                
+                <!-- <a href="https://g.page/knoviq?share" title="Our offline store" class="md-button md-button--primary" target=_ blank>Our store</a>
+                <a href="https://rees52.com" title="Rees52.com" class="md-button md-button--primary" target=_ blank>Rees52</a>
+                <a href="https://flipkart.com" title="Flipkart" class="md-button md-button--primary" target=_ blank>Flipkart</a>
+                <a href="https://amazon.in" title="Amazon" class="md-button md-button--primary" target=_ blank>Amazon</a> -->
+
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<br> {% endblock %}
+
+<!-- Content -->
+{% block content %}{% endblock %}
