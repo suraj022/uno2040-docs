@@ -93,7 +93,7 @@ We'll be connecting an LED (any colour) to D7 according to the circuit diagram b
 
 ### circuit diagram
 
-![led circuit](projects/1-1ledblink.png)
+![blink led circuit](assets/blinkled.png)
 <hr/>
 
 !!! note
