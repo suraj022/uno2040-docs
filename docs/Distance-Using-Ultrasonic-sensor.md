@@ -122,4 +122,4 @@ void loop(){
 ```
 ## Activity
 !!! question
-    Try mixing and matching blinking using multiple leds and multiple blink patterns.
+    Try printing distances in meters
