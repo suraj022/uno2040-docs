@@ -122,8 +122,8 @@ Copy the complete code from below
 
 ??? example "Complete code"
 ``` c++
- int led_pin = 7
- void setup() {
+int led_pin = 7
+void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
 }
 void loop() {
