@@ -15,7 +15,7 @@ We will measure distance using HC-SR04 Ultrasonic Sensor
 <hr>
 
 ## About HC-SR04 Ultrasonic Sensor
-![ultra sonic sensor ](docs/assets/ultrasonicsensor.png)
+![ultra sonic sensor ](assets/ultrasonicsensor.png)
 
 The HC-SR04 Ultrasonic Distance Sensor is a sensor used for detecting the distance to an object by emitting ultrasonic sound waves, and converts the reflected sound into an electrical signal. 
 
@@ -29,7 +29,7 @@ The HC-SR04 Ultrasonic Distance Sensor is a sensor used for detecting the distan
 
 
 ### Circuit diagram
-![ultra sonic circuit](docs/assets/ultrasoniccircuit.png)
+![ultra sonic circuit](assets/ultrasoniccircuit.png)
 <hr/>
 !!! note
     The coloured lines represent male to male jumper cables.
