@@ -91,7 +91,7 @@ We'll be connecting an LED (any colour) to D7 according to the circuit diagram b
 !!! info
     D13 can be replaced with any available Digital pin (refer to the [introduction](index.md#pinout-and-pin-definitions) page for full list of available Digital Pin )
 
-### circuit diagram
+### Circuit diagram
 
 ![blink led circuit](assets/blinkled.png)
 <hr/>
@@ -99,7 +99,7 @@ We'll be connecting an LED (any colour) to D7 according to the circuit diagram b
 !!! note
     The coloured lines represent male to male jumper cables.
 
-### code changes
+### Code changes
 
 we only need to change the digtal pin number from **`D13`** to **`D7`** in the following line.
 
