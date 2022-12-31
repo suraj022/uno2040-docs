@@ -73,12 +73,12 @@ Copy the complete code from below.
 ``` c++
 int led_pin = 13
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(led_pin, OUTPUT);
 }
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(led_pin, HIGH);
   delay(1000);                    
-  digitalWrite(LED_BUILTIN, LOW);  
+  digitalWrite(led_Pin, LOW);  
   delay(1000);                      
 }
 ```
@@ -106,12 +106,12 @@ we only need to change the digtal pin number from **`D13`** to **`D7`** in the f
 ```c++
 int led_pin = 7
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(led_pin, OUTPUT);
 }
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(led_pin, HIGH);
   delay(1000);                    
-  digitalWrite(LED_BUILTIN, LOW);  
+  digitalWrite(led_pin, LOW);  
   delay(1000);                      
 }
 ```
@@ -124,12 +124,12 @@ Copy the complete code from below
 ``` c++
 int led_pin = 7
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(led_pin, OUTPUT);
 }
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(led_pin , HIGH);
   delay(1000);                    
-  digitalWrite(LED_BUILTIN, LOW);  
+  digitalWrite(led_pin, LOW);  
   delay(1000);                      
 }
 ```
