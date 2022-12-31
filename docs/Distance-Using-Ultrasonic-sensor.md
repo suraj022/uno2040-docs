@@ -123,13 +123,3 @@ void loop(){
 ## Activity
 !!! question
     Try mixing and matching blinking using multiple leds and multiple blink patterns.
-
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
