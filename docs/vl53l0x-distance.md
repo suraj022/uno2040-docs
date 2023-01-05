@@ -1,4 +1,4 @@
-# Distance using ultrasonic sensor
+# Distance using VL53L0X sensor
 
 We will measure distance using VL53L0X Sensor 
 
