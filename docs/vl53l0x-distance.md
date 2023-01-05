@@ -14,7 +14,7 @@ We will measure distance using VL53L0X Sensor
 
 <hr>
 
-## About VL53L0Z
+## About VL53L0X
 ![vl53l0x ](assets/vl53l0x.png)
 
 The VL53L0X is a new generation Time-of-Flight (ToF) laser-ranging module providing accurate distance measurement whatever the target reflectances, unlike conventional technologies.
