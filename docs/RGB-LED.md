@@ -20,7 +20,7 @@ We will glow some different colour on Rgb led
 
 ### circuit diagram
 
-![blink led circuit](assets/rgbled.png)
+![blink led circuit](assets/rbgled.png)
 <hr/>
 
 !!! note
