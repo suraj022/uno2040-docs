@@ -1,4 +1,4 @@
-# LED Brightness control;
+# LED Brightness control
 
 In this activity, we'll be controlling brightness of an LED using potentiometer
 
