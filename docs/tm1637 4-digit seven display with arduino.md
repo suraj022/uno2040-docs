@@ -16,7 +16,7 @@ Showing some pattern Tm1637 4-digit seven display with the help of arduino
 
 ### circuit diagram
 
-![blink led circuit](assets/dth.png)
+![blink led circuit](assets/display.png)
 <hr/>
 
 !!! note
